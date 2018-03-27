@@ -6,6 +6,12 @@
   <%= cl_image_tag("bhtkl57lasdid1xkrs9c.jpg") %>
 </div>
 
+<div class="img">
+  <!-- for face detection -->
+<%= cl_image_tag("bhtkl57lasdid1xkrs9c.jpg",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+</div>
+
 <table>
   <thead>
     <tr>
